@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mea Vaccina</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="agulha.ico">
+        <script type="module" src="codigos-JavaScript/home.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body id="cadVacinas">
+        <header>
+            <img id="imgFont" class="supEsquerdo" src="agulhaNoBraco.png" alt="Vaccina">
+            <small id="nomeSite" class="supEsquerdo">Mea Vaccina</small>
+            <button id="botaoSegundo" class="supDireito">Minhas Vacinas</button>
+            <button class="supDireito"><a class="forButon" href="entrar.html">Logout</a></button>
+        </header>
+        
+        <nav>
+            <input id="buscador" type="search" name="buscador" placeholder="Pesquisar Vacina">
+            <span id="aviso"></span>
+        </nav>
+        <main id="vacinas-grid"></main>
+        
+        <footer>
+            <button class="botoesSubmit" id="cadVacina" onclick="return false;">Nova Vacina</button>
+        </footer>
+
+    </body>
+</html>

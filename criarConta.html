@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mea Vaccina</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="agulha.ico">
+        <script type="module" src="codigos-JavaScript/criarConta.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="imgFont" class="supEsquerdo" src="agulhaNoBraco.png" alt="Vaccina">
+            </a>
+            <a href="index.html" id="nomeSite" class="supEsquerdo">Mea Vaccina</a>
+        </header>
+        <main id="cadUser">
+            <form>
+            <label for="textNome">Nome Completo:</label>
+            <input type="text" name="nome" id="textNome">
+            
+            <aside id="genero">
+                <label for="binario">Sexo:</label>
+                <input type="radio" name="binario" id="rbMasculino" value="Masculino" >
+                <label for="rbMasculino">Masculino</label>
+                <input type="radio" name="binario" id="rbFeminino" value="Feminino">
+                <label for="rbFeminino">Feminino</label>    
+            </aside>
+            
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="dataNasc" id="data">
+
+            <label for="txtEmail">E-mail</label>
+            <input class="cxEmail" type="email" name="textEmail" id="txtEmail">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="textSenha" id="senha">
+
+            <label for="senhaRepetida">Repetir Senha</label>
+            <input type="password" name="textRSenha" id="senhaRepetida">
+            <input id="envio" class="botoesSubmit" type="submit" value="Cadastrar" onclick="return false;">
+            </form>
+        </main>
+    </body>
+</html>

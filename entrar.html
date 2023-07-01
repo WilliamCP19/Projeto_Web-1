@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mea Vaccina</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="agulha.ico">
+        <script type="module" src="./codigos-JavaScript/entrar.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="imgFont" class="supEsquerdo" src="agulhaNoBraco.png" alt="Vaccina">
+            </a>
+            <a href="index.html" id="nomeSite" class="supEsquerdo">Mea Vaccina</a>
+            </header>
+        <main id="centralizar">
+            <form>
+                <label for="txtEmail">E-mail</label>
+                <input type="email" name="email" id="txtEmail"> 
+                <label for="txtSenha">Senha</label>
+                <input type="password" name="senha" id="txtSenha"> 
+                <input id="envio" class="botoesSubmit" type="submit" value="Entrar" onclick="return false;"> <br>
+            </form>
+                <a id="envio" href="recuperarSenha.html">Esqueci minha Senha</a>
+        </main>
+    </body>
+</html>

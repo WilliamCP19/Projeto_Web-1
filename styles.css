@@ -1,0 +1,201 @@
+#telaIndex {
+    background-color: #C1E7E3;
+    background-image: url(imgFundo.jpg);
+    background-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C1E7E3;
+}
+
+header {
+    background-color: #8FE1D9;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button, .botaos {
+    cursor: pointer;
+    border: 0px;
+    background-color: #419ED7;
+    color: mintcream;
+}
+
+.botoesSubmit {
+    background-color: #37BD6D;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: auto auto;
+    text-align: center;
+}
+
+section {
+    height: 380px;
+    width: 321px;
+    text-align: center;
+    background-color: #B0C4DE;
+    cursor: pointer;
+}
+
+p {
+    color: #419ED7;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #4169E1;
+}
+
+dialog {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(47 79 79 / .8);
+}
+
+dialog::backdrop {
+    background-color: rgb(255 255 255 / .3);
+}
+
+#imgFont {
+    width: 4%;
+    height: 7%;
+}
+
+#nomeSite {
+    font-weight: bold;
+    left: 71px;
+    top: 16px;
+    color: #419ED7;
+    text-decoration: none;
+}
+
+#botaoSegundo {
+    right: 5%;
+}
+
+#buscador {
+    background-color: lavenderblush;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 97%;
+}
+
+#envio {
+    margin-top: 25px;
+}
+
+#excluir {
+    margin-top: 5px;
+    position: absolute;
+    right: 10px;
+    background-color: red;
+    color: white;
+}
+
+#textTelaPrincipal {
+    margin-top: 11.8%;
+    font-size: 50%;
+    font-weight: bold;
+    font-size: x-large;
+    color: firebrick;
+}
+
+#cadVacina {
+    margin-top: 5px;
+    margin-left: 47%;
+}
+
+#cadUser {
+    margin-top: 8%;
+}
+
+#centralizar {
+    margin-top: 14%;
+}
+
+#centralizarDadosVacina {
+    margin-top: 10%;
+}
+
+#vacinas-grid {
+    display: grid;
+    grid-row: auto auto auto;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+#genero {
+    flex-direction: row;
+    margin: 10px;
+}
+
+#imgFundo {
+    padding: 2pt;
+    width: 50px;
+    height: 50px;
+    background-color: #B0C4DE;
+    border: 5px solid #90EE90;
+    border-radius: 50%;
+    transition: backgroud .3s;
+}
+
+#imgFundo:hover {
+    padding: 3pt;
+    background-color: #8FE1D9;
+    border: 5px solid #37BD6D;
+}
+
+#pExclusao {
+    color: #37BD6D;
+    font-weight: bolder;
+}
+
+input[type="email"] {
+    width: 220px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.supEsquerdo {
+    position: absolute;
+}
+
+.supDireito {
+    position: absolute;
+    right: 5px;
+    margin-top: 5px;
+    height: 40px;
+    align-items: end;
+}
+
+.forButon {
+    color: white;
+    text-decoration: none;
+}
+
+.doses {
+    flex-direction: row;
+    margin: 10px;
+}

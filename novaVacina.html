@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mea Vaccina</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="agulha.ico">
+        <script type="module" src="./codigos-JavaScript/novaVacina.js"></script>
+    </head>
+    <body>
+        <header>
+            <img id="imgFont" class="supEsquerdo" src="agulhaNoBraco.png" alt="Vaccina">
+            <small id="nomeSite" class="supEsquerdo">Mea Vaccina</small>
+            <button id="botaoSegundo" class="supDireito"><a class="forButon">Minhas Vacinas</a></button>
+            <button class="supDireito"><a class="forButon" href="entrar.html">Logout</a></button>
+        </header>
+        <main id="centralizarDadosVacina">
+            <form>
+                <label for="txtDataVac">Data de Vacinação</label>
+                <input type="date" name="dataVac" id="txtDataVac">  
+
+                <label for="txtNomeVac">Vacina</label> 
+                <input type="text" name="tipoVac" id="txtNomeVac"> <br>
+
+                <aside>
+                    <input type="radio" name="nDose" id="d1" value="Dose 1">
+                    <label for="d1">1a. Dose</label>
+                    <input type="radio" name="nDose" id="d2" value="Dose 2">
+                    <label for="d2">2a. Dose</label>
+                    <input type="radio" name="nDose" id="d3" value="Dose 3">
+                    <label for="d3">3a. Dose</label>
+                    <input type="radio" name="nDose" id="dReforco" value="Dose Reforco">
+                    <label for="dReforco">Reforço</label>
+                    <input type="radio" name="nDose" id="dUnica" value="Dose Unica">
+                    <label for="dUnica">Dose Única</label> <br> <br>
+                </aside>
+
+                <span for="imgFundo">Selecione o comprovante de vacina</span>
+                <input type="file" name="comprovanteVac" id="imgComp" accept="image/*">
+                <img src="logoImagem.png" alt="Selecione uma imagem" id="imgFundo">
+
+                <label for="txtDataProx">Próxima Vacinação</label>
+                <input type="date" name="proxDataVac" id="txtDataProx"> <br>
+
+                <input id="enviar" class="botoesSubmit" type="submit" value="Cadastrar" onclick="return false">
+            </form>
+        </main>
+    </body>
+</html>
